@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T01.png" width="100%">
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T02.png" width="100%">
-<img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T04.png" width="100%">
+
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T05.png" width="100%">
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T06.png" width="100%">
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T07.png" width="100%">
