@@ -5,6 +5,9 @@
 
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/IcosphereRemap.gif" width="100%">
 
+<img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/E02.png" width="100%">
+<img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/E01.png" width="100%">
+
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T07.png" width="100%">
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T05.png" width="100%">
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T08.png" width="100%">
