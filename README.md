@@ -1,6 +1,6 @@
 # IcosphereTileEarth
 
-An spinoff of my [SphericalEarth](https://github.com/dirediredock/SphericalEarth) repo.
+A spinoff of my [SphericalEarth](https://github.com/dirediredock/SphericalEarth) repo.
 
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T01.png" width="100%">
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T02.png" width="100%">
