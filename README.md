@@ -1,5 +1,7 @@
 # IcosphereTileEarth
 
+[SphericalEarth](https://github.com/dirediredock/SphericalEarth)
+
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T01.png" width="100%">
 <img src="https://raw.githubusercontent.com/dirediredock/IcosphereTileEarth/main/Figures/T02.png" width="100%">
 
