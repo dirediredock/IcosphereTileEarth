@@ -1,4 +1,4 @@
-# by Matias I. Bofarull Oddo 2021.12.25
+# by Matias I. Bofarull Oddo 2021.12.26
 
 phi = (1 + (5 ** (1 / 2))) / 2
 
@@ -6,16 +6,30 @@ A = [phi, phi, -phi, -phi]
 B = [-1, 1, -1, 1]
 C = [0, 0, 0, 0]
 
-# X=cat(1,B,C,A);
-# Y=cat(1,A,B,C);
-# Z=cat(1,C,A,B);
+Xi = B + C + A
+Yi = A + B + C
+Zi = C + A + B
 
-# Points=cat(2,X,Y,Z);
-# Points=Points./norm(Points(1,:)); # normalization
 
-X = B + C + A
-Y = A + B + C
-Z = C + A + B
+def euclideanDistance(vector):
+    sum = 0
+    for i in vector:
+        sum += i ** 2
+    return sum ** (1 / 2)
+
+
+def rightArrayScalarDivide(array, scalar):
+    export = []
+    for i in array:
+        export.append(i / scalar)
+    return export
+
+
+scalar = euclideanDistance([Xi[0], Yi[0], Zi[0]])
+
+X = rightArrayScalarDivide(Xi, scalar)
+Y = rightArrayScalarDivide(Yi, scalar)
+Z = rightArrayScalarDivide(Zi, scalar)
 
 face_index = [
     [1, 12, 6],
