@@ -78,20 +78,20 @@ for i in range(len(X)):
 
 f = face_index
 
-face_subdivisions = []
+subdivisions = 2
 
-for i in range(len(f)):
-
-    tri = face_index[i]
-
-    a, v = addMidwayVertex(tri[0], tri[1], v)
-    b, v = addMidwayVertex(tri[1], tri[2], v)
-    c, v = addMidwayVertex(tri[2], tri[0], v)
-
-    nfc = [[tri[0], a, c], [tri[1], b, a], [tri[2], c, b], [a, b, c]]
-
-    for trio in nfc:
-        face_subdivisions.append(trio)
+if subdivisions > 0:
+    for gen in range(subdivisions):
+        face_subdivisions = []
+        for i in range(len(f)):
+            tri = f[i]
+            a, v = addMidwayVertex(tri[0], tri[1], v)
+            b, v = addMidwayVertex(tri[1], tri[2], v)
+            c, v = addMidwayVertex(tri[2], tri[0], v)
+            nfc = [[tri[0], a, c], [tri[1], b, a], [tri[2], c, b], [a, b, c]]
+            for trio in nfc:
+                face_subdivisions.append(trio)
+        f = face_subdivisions
 
 
 import matplotlib.pyplot as plt
@@ -104,13 +104,13 @@ fig = plt.figure(figsize=(10, 10))
 ax = fig.add_subplot(111, projection="3d", proj_type="ortho")
 ax.set_box_aspect(aspect=(1, 1, 1))
 
-for i in range(len(face_subdivisions)):
+for i in range(len(f)):
 
     x = []
     y = []
     z = []
 
-    for index in face_subdivisions[i]:
+    for index in f[i]:
         x.append(v[index][0])
         y.append(v[index][1])
         z.append(v[index][2])
